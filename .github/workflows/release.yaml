@@ -24,8 +24,8 @@ jobs:
 
       - name: Docker Image bauen
         run: |
-          docker build -t ghcr.io/valon-bb/html-openshift-app:v1 .
+          docker build -t ghcr.io/valon-bb/264575-bedbru/html-openshift-app:v1 .
 
       - name: Docker Image pushen
         run: |
-          docker push ghcr.io/valon-bb/html-openshift-app:v1
+          docker push ghcr.io/valon-bb/264575-bedbru/html-openshift-app:v1
