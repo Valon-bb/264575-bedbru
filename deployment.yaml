@@ -21,5 +21,5 @@ spec:
         ports:
         - containerPort: 8080
           protocol: TCP
-        image: ghcr.io/valon-bb/html-openshift-app:v1
+        image: ghcr.io/valon-bb/264575-bedbru/html-openshift-app:v1
         imagePullPolicy: Always
